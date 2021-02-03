@@ -1,20 +1,29 @@
 # blue-green-docker
 ## Blue &amp; Green: Mini project #1
 
-On the commandline run: `docker build -t flaskdock .`
+On the commandline run: 
+`docker build -t flaskdock .`
+
 
 The above docker build file uses the -t flag to tag the image with the name of flaskdock.
 
-If the build worked successfully we can see the image in with the docker image ls command: `docker image ls`
+
+If the build worked successfully we can see the image in with the docker image ls command: 
+`docker image ls`
+
 
 You should then see your tag name in the images list:
 
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 flaskdock           latest              24045e0464af        2 minutes ago       165MB
 
-The App is saved as `app.py`
 
-The requirements.txt file within the same directory as app.py specifies our Flask dependency: `flask==1.0.2`
+The App is saved as:
+`app.py`
+
+
+The requirements.txt file within the same directory as app.py specifies our Flask dependency: 
+`flask==1.0.2`
 
 
 ## Running the Container
