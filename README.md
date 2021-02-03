@@ -1,5 +1,5 @@
 # blue-green-docker
-##Blue &amp; Green: Mini project #1
+## Blue &amp; Green: Mini project #1
 
 On the commandline run: `docker build -t flaskdock .`
 
@@ -17,7 +17,7 @@ The App is saved as `app.py`
 The requirements.txt file within the same directory as app.py specifies our Flask dependency: `flask==1.0.2`
 
 
-##Running the Container
+## Running the Container
 Now that we have our image in hand along with the Python code in a file we can run the image as a container with the docker run command. Execute the following command, making sure to replace the absolute path for the volume to your own directory.
 
 docker run -p 5000:80 --volume=/Users/amira/desktop/py/flaskdocker:/app flaskdock
